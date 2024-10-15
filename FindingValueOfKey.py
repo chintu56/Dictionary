@@ -12,3 +12,11 @@ Enter key to check : A
 Sample Output :
 Key is present and value of the key is: 1
 """
+d={"A":1,"B":2,"C":3}
+print("Enter key to check:")
+key=input()
+if key in d.keys():
+    print("Key is present and value of the key is:",d[key])
+else:
+    print("Key isn't present!")
+
